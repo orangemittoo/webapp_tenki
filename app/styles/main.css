@@ -23,14 +23,14 @@
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transform: translate3d(0px, 0px, -160px) rotate3d(0, 1, 0, 0deg);
 	-webkit-transform-style: preserve-3d;
 	-webkit-transition-property: -webkit-transform;
 	-webkit-transition-duration: 550ms;
 	-webkit-transition-timing-function: ease-out;
 	-webkit-transition-delay: initial;
-	top: 0px;
-	left: 0px;
-	-webkit-transform: translate3d(0px, 0px, -160px) rotate3d(0, 1, 0, 0deg);
 }
 
 .slide {
